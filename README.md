@@ -16,7 +16,7 @@ npm install --save shoutout-react
 
 ```jsx
 import React from 'react'
-import { ShoutoutEmbed } from 'shoutout-react'
+import ShoutoutEmbed from 'shoutout-react'
 
 const File Editor = () => (
   <ShoutoutEmbed
@@ -27,4 +27,4 @@ const File Editor = () => (
 
 ## License
 
-MIT © [Shoutout](https://shoutout.so)
+MIT ©2021 [Shoutout](https://shoutout.so)
