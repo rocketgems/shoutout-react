@@ -15,7 +15,7 @@ const ShoutoutEmbed = ({ url }) => {
         'https://platform.shoutout.so',
         ''
       )}`}
-      id={embedId}
+      id={embedId.current}
       src={`https://platform.shoutout.so/${url}`}
       frameBorder='0'
       scrolling='yes'
