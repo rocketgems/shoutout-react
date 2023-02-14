@@ -12,11 +12,11 @@ const ShoutoutEmbed = ({ url }) => {
   return (
     <IframeResizer
       title={`Shoutout Embed ${url.replace(
-        'https://platform.shoutout.so',
+        'https://shoutout.io/embed/',
         ''
       )}`}
       id={embedId}
-      src={`https://platform.shoutout.so/${url}`}
+      src={`https://shoutout.io/embed/${url}`}
       frameBorder='0'
       scrolling='yes'
       width='100%'
